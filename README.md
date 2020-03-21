@@ -6,7 +6,7 @@ This HTML5 component shows COVID-19-related information in an
 In detail the component
 * shows all local businesses that entered COVID-19-related updates into OpenStreetMap,
 * highlights businesses that require immediate financial support (via coupons, microcredits, donations),
-* allows filtering by 
+* allows filtering by
    * special access for high risk persons, 
    * safe pick up option (timeslot), 
    * alternative online buying and delivery option
@@ -23,4 +23,7 @@ A local webserver can be started via [docker-compose](https://docs.docker.com/co
 
     docker-compose up
     open http://127.0.0.1:8081
+    # examples
     open http://127.0.0.1:8081/experiments/exp_embed_openstreetmap/index.html
+    open http://127.0.0.1:8081/experiments/exp_embed_via_leaflet/index.html
+    open http://127.0.0.1:8081/experiments/exp_leaflet_plus_openstreetmap/index.html
