@@ -1,0 +1,11 @@
+version: '2'
+
+# docker run -p 8081:80 -v $PWD:/usr/local/apache2/htdocs/ httpd:2.4
+
+services:
+  apache:
+    image: httpd:2.4
+    volumes:
+      - $PWD:/usr/local/apache2/htdocs/
+    ports:
+      - 8081:80

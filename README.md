@@ -16,3 +16,11 @@ In detail the component
 TODO screenshot with link here
 
 (Click here for the map)[https://rwitzel.github.io/covid19_local_business_updates_map/].
+
+## How to show the component locally in a browser?
+
+A local webserver can be started via [docker-compose](https://docs.docker.com/compose/install/):
+
+    docker-compose up
+    open http://127.0.0.1:8081
+    open http://127.0.0.1:8081/experiments/exp_embed_openstreetmap/index.html
